@@ -1,0 +1,61 @@
+.profile-photo {
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.text-content {
+    padding-left: 60px;
+}
+
+@media (max-width: 992px) {
+    .text-content {
+        padding-left: 0; /* Reset padding on smaller screens */
+    }
+}
+
+.custom-hr {
+    width: 91.5%; 
+    margin: 0 auto; 
+    border: 0;
+    border-top: 1px solid black; 
+    margin-top: 10px; 
+    margin-bottom: 5px; 
+}
+
+.education-entry {
+    margin-bottom: 20px; 
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.education-title {
+    font-weight: bold;
+}
+
+.education-location {
+    text-align: right;
+}
+
+.education-date {
+    text-align: right;
+    font-style: italic;
+}
+
+.education-information {
+    padding-right: 60px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+ul.nav a svg {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -2px; /* Adjust the value if necessary */
+}

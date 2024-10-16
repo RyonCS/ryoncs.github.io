@@ -1,0 +1,42 @@
+.portfolio-card-img {
+    width: 100%; /* Makes the video responsive to card width */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the video covers the area without distortion */
+}
+
+.portfolio-page-img {
+    width: 100%; /* Makes the video responsive */
+    height: 300px; /* Set a fixed height for uniformity */
+    display: block; /* Ensures no extra space is added */
+    object-fit: cover; /* Cover the container without distortion */
+}
+
+.individual-photo {
+    width: 100%; /* Makes the image responsive */
+    height: 430px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Ensures no extra space is added */
+}
+
+.btn {
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+html, body {
+    margin: 0;
+  }
+  
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 5px;
+    padding-top: 75px;
+  }
+  
+  footer {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  
